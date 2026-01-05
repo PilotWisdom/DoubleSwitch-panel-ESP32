@@ -23,7 +23,7 @@ static const char *TAG = "joystick";
 
 //Switches 1..4 - solder descending
 const gpio_num_t button_pins[NUM_PINS] = {   
-    GPIO_NUM_5, GPIO_NUM_4, GPIO_NUM_3, GPIO_NUM_2
+    GPIO_NUM_1, GPIO_NUM_2, GPIO_NUM_4, GPIO_NUM_5
 };
 
 // HID report descriptor for 16-button joystick
